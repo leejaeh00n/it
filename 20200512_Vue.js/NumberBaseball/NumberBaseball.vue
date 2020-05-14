@@ -39,7 +39,7 @@
         return array;
         },
             onSubmitForm(){
-                if(this.value === this.answer.join('')){
+                if(this.value === this.answer.join('')){ // 정답 맞췄으면
                     this.tries.push({
                     try: this.value,
                     result: '홈런',
